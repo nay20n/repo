@@ -30,7 +30,7 @@ except KeyError:
 # 3. AI 모델 선택 (유료 버전 사용)
 # -----------------------------------------------------------------
 # 모델 설정 (유료 버전을 쓰시니 'pro' 모델을 사용)
-model = genai.GenerativeModel('gemini-1.5-pro-latest')
+model = genai.GenerativeModel('gemini-pro')
 
 # -----------------------------------------------------------------
 # 4. 직원별 업무 분리 (탭 UI 사용)
